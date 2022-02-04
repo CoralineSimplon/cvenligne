@@ -1,0 +1,102 @@
+/* Mise en forme général du site */
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+/*Mise en forme du header*/
+
+header{
+    text-align: center;
+   /* background-image:url(ressources/background.png) ;*/
+    background-color: rgb(247, 235, 245);
+    box-shadow: 0px 0px 15px rgb(190, 137, 137);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    display:none;
+}
+
+h1 {
+    color:rgb(53, 50, 41);
+    display: inline;
+    background-color: blue;
+    float: center;
+}
+
+.menu{
+    background-color: coral;
+    display: inline;
+}
+
+.photoaccueil{
+   /** float: left; **/
+    background-color: aquamarine;
+ 
+}
+
+
+/*Mise en forme du titre H2*/   
+  
+h2{
+    color: burlywood;
+    text-align: center;
+}
+
+/*Mise en forme de la présentation*/   
+
+.Presentation p {
+    color:rgba(18, 18, 37, 0.849);
+    margin: 30px;
+    margin-left: 90px; 
+    text-align: justify;
+    max-width: 900px;      
+}
+
+.Presentation {
+    margin: 0 auto;
+   /* background-color: pink;*/
+    width: 1080px;
+}
+
+.presentationProjet p {
+    color:rgba(18, 18, 37, 0.849);
+    margin: 30px;
+    margin-left: 90px; 
+    text-align: justify;
+    max-width: 900px; 
+}
+
+/*TRAITEMENT SPECIAL LISTE*/
+.enumeration {
+ margin-left: 100px;
+/*   column-count: 2; */
+}
+
+/*Positionnement des div de competences en colonne*/
+.competences {
+      display: inline-block;
+      background-color: darkseagreen;
+      display: flex;
+} 
+
+.relationnel{
+    background-color: darkslateblue;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+}
+
+.comptabilite {
+    background-color: gold;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+
+}
+
+.competences p {
+    color: goldenrod;
+}
