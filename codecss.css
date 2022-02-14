@@ -1,0 +1,148 @@
+/* Mise en forme général du site */
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+/*Mise en forme du header*/
+
+header{
+    text-align: center; 
+   /* background-image:url(ressources/background.png) ;*/
+    background-color: rgb(247, 235, 245);
+    box-shadow: 0px 0px 15px rgb(190, 137, 137);
+    background-size: 100%;
+   /* background-repeat:no-repeat;*/
+   /* display: flex; */
+}
+
+
+
+.titreMenu {
+ text-align: right;
+ display: inline-block;
+}
+
+.photo {
+    width: 99px;
+    height: 99px;
+    display:inline-block;
+}
+
+h1 {
+    color:rgb(53, 50, 41);
+    display: inline-block;
+    /*background-color: blue;*/
+}
+
+.menu{
+    /*background-color: coral;*/
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*Mise en forme du titre H2*/   
+  
+h2{
+    color: burlywood;
+    text-align: center;
+}
+
+/*SECTION ACCUEIL SOIT INDEX EN HTML Mise en forme de la présentation S*/   
+
+.Presentation p {
+    color:rgba(18, 18, 37, 0.849);
+    margin: 30px;
+    margin-left: 90px; 
+    text-align: justify;
+    max-width: 900px;      
+}
+
+.Presentation {
+    margin: 0 auto;
+   /* background-color: pink;*/
+    width: 1080px;
+}
+
+
+/*SECTION CV*/
+
+/*Positionnement des div de competences en colonne*/
+.competences {
+    /*display: inline-block;*/
+    /*background-color: darkseagreen;*/
+    display: flex;
+} 
+
+.relationnel{
+ /* background-color: darkslateblue;*/
+  width: 500px;
+  height: 200px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.comptabilite {
+ /* background-color: gold;*/
+  width: 500px;
+  height: 200px;
+  display: inline-block;
+}
+
+.competences p {
+  /*color: goldenrod;*/
+  color: burlywood;
+}
+
+.telechargerCv {
+ /* background-color: crimson;*/
+  text-align: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 1%;
+  margin-bottom: 40%;
+}
+
+
+/*SECTION PROJET HTML*/
+
+/*Mise en forme de la présentation */   
+.presentationProjet p {
+    color:rgba(18, 18, 37, 0.849);
+    margin: 30px;
+    margin-left: 90px; 
+    text-align: justify;
+    max-width: 900px; 
+}
+
+/*MISE EN PAGE DE LA LISTE PROJET*/
+.enumeration {
+ margin-left: 100px;
+/*   column-count: 2; */
+}
+
+
+/*SECTION CONTACT*/
+
+form{
+ display: inline-flexbox;
+ margin-left: 40%;
+
+}
+
+.nom {
+    margin-top: 5% ;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.mail{
+    margin-bottom: 2%;
+}
+
+.message {
+    margin-bottom: 2%;
+}
